@@ -1,0 +1,19 @@
+{
+  "name": "black-market",
+  "version": "1.0.0",
+  "description": "Black Market BOT",
+  "main": "main.js",
+  "scripts": {
+    "test": "linux"
+  },
+  "keywords": [
+    "market",
+    "bot"
+  ],
+  "author": "L1nux",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "discord.js-avatar": "^1.0.0"
+  }
+}
