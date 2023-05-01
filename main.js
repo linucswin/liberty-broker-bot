@@ -53,11 +53,11 @@ client.on('message', message =>{
 	} else
   if(command === 'bizuri') {
  client.commands.get('bizuri').execute(message, args, Discord);
- console.log(">>> " + message.author.tag + " a folosit comanda [ info ]");
+ console.log(">>> " + message.author.tag + " a folosit comanda [ bizuri ]");
   } else
   if(command === 'calc') {
  client.commands.get('calc').execute(message, args, Discord);
- console.log(">>> " + message.author.tag + " a folosit comanda [ info ]");
+ console.log(">>> " + message.author.tag + " a folosit comanda [ calc ]");
   }
 });
 
