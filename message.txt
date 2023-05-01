@@ -1,0 +1,7 @@
+module.exports = {
+	name: 'comanda',
+	description: "",
+	execute(message, args){
+		message.channel.send('');
+	}
+}
